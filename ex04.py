@@ -4,8 +4,8 @@
 while True:
     try:
         idade = int(input("Digite sua idade: "))
-        if idade < 0:
-            print("Idade nao pode ser negativa.")
+        if idade < 18:
+            print("Idade nao permitida.")
             continue
         break
     except ValueError:
